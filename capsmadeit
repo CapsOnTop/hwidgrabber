@@ -1,7 +1,0 @@
-setclipboard(game:GetService("RbxAnalyticsService"):GetClientId())
-local StarterGui = game:GetService("StarterGui")
-StarterGui:SetCore("SendNotification", {
-	Title = "HWID Copied";
-	Text = "You can now paste your HWID";
-	Duration = 15;
-})
